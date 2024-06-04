@@ -3,15 +3,16 @@
 namespace App\Livewire\Reservations;
 
 use App\Models\Reservation;
+use App\Models\RoomPrice;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Livewire\Component;
-use Barryvdh\DomPDF\Facade\Pdf as PDF;
 
 class ListOfReservations extends Component
 {
     public function render()
     {
         return view('livewire.reservations.list-of-reservations', [
-            'reservations' => Reservation::orderBy('created_at', 'desc')->get(),
+            'reservations' => Reservation::where('checkin_date', '=', null)->orderBy('created_at', 'desc')->get(),
         ]);
     }
 
@@ -19,7 +20,7 @@ class ListOfReservations extends Component
     {
 
         $reservation = Reservation::find($id);
-        $reservation->checkin_date = now();
+        $reservation->checkin_date = now()->addHours(3);
         $reservation->checkout_date = null;
         $reservation->save();
 
@@ -29,16 +30,21 @@ class ListOfReservations extends Component
     public function checkout($id)
     {
         $reservation = Reservation::find($id);
-        $reservation->checkout_date = now();
+        $reservation->checkout_date = now()->addHours(3);
         $reservation->save();
+
+        RoomPrice::where('id', $reservation->room_price_id)->restore();
 
         noty()->addSuccess('Checked out successfully');
     }
 
-    public function generatePDF()
+    public function generatePDF($id)
     {
-       
-        $pdf = PDF::loadView('livewire.downloads.print-reservation');
 
-        return $pdf->stream('report.pdf', array('Attachment' => 0));    }
+       redirect(route('reservations.print', ['reservation_id' => $id]));
+
+        
+    }
+
+
 }
