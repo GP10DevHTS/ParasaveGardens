@@ -66,7 +66,6 @@
                     <x-input-error for="email" class="mt-2" />
                 </div>
 
-
                 <div class="col-span-6">
                     <x-label for="address" value="{{ __('Address') }}" />
                     <x-input id="address" type="text" class="mt-1 block w-full" wire:model.defer="address" />
@@ -79,38 +78,61 @@
                     <x-input-error for="nin" class="mt-2" />
                 </div>
 
-
                 <div class="col-span-6 ">
-                    <x-label for="reservation_date" value="{{ __('Reservation Date') }}" />
+                    <x-label for="reservation_date" value="{{ __('Expected Checkin Date') }}" />
                     <x-input id="reservation_date" type="datetime-local" class="mt-1 block w-full"
                         wire:model.defer="reservation_date" />
                     <x-input-error for="reservation_date" class="mt-2" />
                 </div>
 
                 <div class="col-span-6 ">
-                    <x-label for="checkout_date" value="{{ __('Checkout Date') }}" />
+                    <x-label for="checkout_date" value="{{ __('Expected Checkout Date') }}" />
                     <x-input id="checkout_date" type="datetime-local" class="mt-1 block w-full"
                         wire:model.defer="checkout_date" />
                     <x-input-error for="checkout_date" class="mt-2" />
                 </div>
 
                 <div class="col-span-6">
-                    <x-label for="room_price_id" value="{{ __('Room') }}" />
-                    <select id="room_price_id"
+                    <x-label for="room_id" value="{{ __('Room') }}" />
+                    <select id="room_id"
                         class="mt-1 block w-full border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm"
-                        wire:model.defer="room_price_id">
+                        wire:model.defer="room_id">
                         <option value="">Select Room</option>
                         @foreach ($rooms as $room)
-                            <option value="{{ $room->id }}">{{ $room->room->name . ' - ' . $room->room->roomPrice->price  }}</option>
+                            <option value="{{ $room->id }}">
+                                {{ $room->room->name . ' - ' . $room->room->roomPrice->price }}</option>
                         @endforeach
                     </select>
                     <x-input-error for="room_price_id" class="mt-2" />
+                </div>
+
+                <div class="col-span-6">
+                    <x-label for="financial_currency" value="{{ __('Currency') }}" />
+                    <select id="financial_currency"
+                        class="mt-1 block w-full border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm"
+                        wire:model.defer="financial_currency">
+                        <option value="">Select Currency</option>
+                        <option value="USD">USD</option>
+                        <option value="UGX">UGX</option>
+                    </select>
+                    <x-input-error for="room_price_id" class="mt-2" />
+                </div>
+
+                <div class="col-span-6">
+                    <x-label for="room_price_rate" value="{{ __('Price / Rate') }}" />
+                    <x-input type="number" wire:model.live.debounce.500ms="room_price_rate" />
+                    <x-input-error for="room_price_rate" class="mt-2" />
                 </div>
             </div>
 
         </x-slot>
 
         <x-slot name="actions">
+            @if ($room_price_rate)
+                <span>
+                    {{ $financial_currency ?? '' }} {{ $room_price_rate }}
+                </span>
+            @endif
             <x-action-message class="mr-3" on="saved">
                 {{ __('Saved.') }}
             </x-action-message>

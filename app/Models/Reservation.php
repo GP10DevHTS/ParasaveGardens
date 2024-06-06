@@ -13,11 +13,17 @@ class Reservation extends Model
 
     protected $fillable = [
         'customer_id',
+        'financial_currency',
         'staff_id',
-        'room_price_id',
-        'reservation_date',
+        'room_price_rate',
+        'room_id',
+        'expected_arrival',
+        'number_of_days',
+        'expected_departure',
         'checkin_date',
         'checkout_date',
+        'reservation_date',
+        'number_of_people',
     ];
 
     public function customer()
@@ -30,13 +36,17 @@ class Reservation extends Model
         return $this->belongsTo(Staff::class);
     }
 
-    public function roomPrice()
-    {
-        return $this->belongsTo(RoomPrice::class)->withTrashed();
-    }
+    // public function roomPrice()
+    // {
+    //     return $this->belongsTo(RoomPrice::class)->withTrashed();
+    // }
 
     public function transactions()
     {
         return $this->hasMany(Transaction::class);
+    }
+
+    public function financialCurrency(){
+        return $this->belongsTo(FinancialCurrency::class);
     }
 }

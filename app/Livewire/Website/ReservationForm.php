@@ -4,6 +4,8 @@ namespace App\Livewire\Website;
 
 use App\Models\Customer;
 use App\Models\Reservation;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class ReservationForm extends Component
@@ -37,24 +39,30 @@ class ReservationForm extends Component
             'reservation_date' => 'required|date|after_or_equal:today',
             'number_of_days' => 'required',
         ]);
+
         if(Customer::where('email', $this->email)->exists()){
             $customer = Customer::where('email', $this->email)->first();
         }else{
             $customer = Customer::create([
-                'name' => $this->name,
-                'email' => $this->email,
-                'phone' => $this->phone
+                'name' => $this->name ?? null,
+                'email' => $this->email ?? null,
+                'phone' => $this->phone ?? null,
             ]);
         }
+
         Reservation::create([
             'customer_id' => $customer->id,
             'number_of_people' => $this->number_of_people,
             'reservation_date' => $this->reservation_date,
+            'expected_arrival' => $this->reservation_date,
             'number_of_days' => $this->number_of_days,
+            'expected_departure' => Carbon::parse($this->reservation_date)->addDays($this->number_of_days)
         ]);
  
         noty()->addSuccess('Reservation submitted successfully');
         $this->reservationModal_isOpen = false;
         $this->reset();
+
+        
     }
 }

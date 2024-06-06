@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="mt-4 col-span-1">
-                            <x-label for="newPaymentAmountFin" value="New Payment Amount (Evaluational)" />
+                            <x-label for="newPaymentAmountFin" value="New Payment Amount" />
                             <x-input id="newPaymentAmountFin" class="block mt-1 w-full" type="number"
                                 wire:model.live.debounce.500ms="newPaymentAmountFin" />
                             @error('newPaymentAmountFin')

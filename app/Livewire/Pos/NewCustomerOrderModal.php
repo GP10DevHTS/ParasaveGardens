@@ -39,6 +39,8 @@ class NewCustomerOrderModal extends Component
 
     public function render()
     {
+        $this->menuItems = Product::where('is_sellable', true)->get();
+
         return view('livewire.pos.new-customer-order-modal');
     }
 
@@ -144,7 +146,6 @@ class NewCustomerOrderModal extends Component
     {
         $this->customers = Customer::all();
         $this->staff = Staff::all();
-        $this->menuItems = Product::all();
     }
 
     public function openModal()

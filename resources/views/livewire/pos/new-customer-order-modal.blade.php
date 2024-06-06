@@ -126,7 +126,7 @@
                             </div>
                             <div class="col-span-1 px-2">
                                 <x-input type="number" min="1"
-                                    max="{{ App\Models\Inventory::where('product_id', $menuItem->id)->first()->quantity }}"
+                                    {{-- max="{{ App\Models\Inventory::where('product_id', $menuItem->id)->first()->quantity }}" --}}
                                     class="mt-1 block w-full" placeholder="Quantity"
                                     wire:model="orderItems.{{ $index }}.quantity" />
                                 @error('orderItems.' . $index . '.quantity')

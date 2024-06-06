@@ -21,6 +21,8 @@ class DatabaseSeeder extends Seeder
 
             ExpenseCategorySeeders::class,
             ExpenseItemsSeeder::class,
+
+            ProductCategoriesSeeder::class
         ]);
     }
 }

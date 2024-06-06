@@ -33,7 +33,7 @@
 
         <!-- Button trigger modal -->
         <button  type="submit" class="btn btn-tertiary">
-            Book
+            Book Now
         </button>
 
         {{-- <!-- Modal -->
