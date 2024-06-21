@@ -10,7 +10,7 @@ use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 use App\Models\User;
 
-class userMgtPermissions extends Seeder
+class UserMgtPermissions extends Seeder
 {
     /**
      * Run the database seeds.
