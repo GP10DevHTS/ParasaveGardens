@@ -8,8 +8,8 @@
                         (U)</li>
                     <li><i class="fa fa-mobile" aria-hidden="true"></i> +256 704 573434</li>
                     <li><i class="fa fa-envelope" aria-hidden="true"></i><a
-                            href="mailto:info@interconnectairportcottages.info">
-                            info@interconnectairportcottages.info</a></li>
+                            href="mailto:interconnect.cottages@gmail.com">
+                            interconnect.cottages@gmail.com</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
