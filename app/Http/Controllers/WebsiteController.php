@@ -66,7 +66,7 @@ class WebsiteController extends Controller
         ]);
 
         $contactData = $request->only(['name', 'email', 'phone', 'message']);
-        Mail::to('info@interconnect.info')->send(new ContactUsMail($contactData));
+        Mail::to('interconnect.cottages@gmail.com')->send(new ContactUsMail($contactData));
 
         return redirect()->back()->with('success', 'Thank you for contacting us!');
     }
