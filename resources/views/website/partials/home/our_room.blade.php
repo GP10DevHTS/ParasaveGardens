@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="titlepage">
-                    <h2>Discover Our Room</h2>
+                    <h2>Discover Our Rooms</h2>
                     <p>Experience unparalleled comfort and convenience at Interconnect Airport Cottages. Each of our
                         rooms is designed to provide a restful retreat, perfect for travelers seeking a seamless stay.
                     </p>
@@ -52,16 +52,8 @@
             </div>
         </div>
         <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="room_img">
-                    <figure>
-                        <img style="width: 100%; height: auto;" src="images/room1.jpg"
-                            alt="Interconnect Airport Cottages" />
-                    </figure>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="bed_room">
+            <div class="col-md-3">
+                <div class="">
                     {{-- <h3>{{ $rooms->first()->name }}</h3> --}}
                     {{-- <p>{{ $rooms->first()->description }}</p> --}}
                     <h4>Amenities</h4>
@@ -70,8 +62,37 @@
                         <li>Flat Screen TV</li>
                         <li>Room Service</li>
                         <li>Mini Bar</li>
-                        <li>Air Conditioning</li>
+                        {{-- <li>Air Conditioning</li> --}}
                         <li>Complimentary Breakfast</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="room_img">
+                    <figure>
+                        <img style="width: 100%; height: auto;" src="images/8G5A3263.JPG"
+                            alt="Interconnect Airport Cottages" />
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="">
+                    {{-- <h3>{{ $rooms->first()->name }}</h3> --}}
+                    {{-- <p>{{ $rooms->first()->description }}</p> --}}
+                    <h4 class="text-uppercase">Fees</h4>
+                    <hr>
+                    <ul class="amenities-list">
+                        <li>Single Ocupant:</li>
+                        <li class="ml-4">$40.00</li>
+                        
+                        <li>Double Ocupant:</li>
+                        <li class="ml-4">$70.00</li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li>Bed, Breakfast and Airport pickup inclusive</li>
                     </ul>
                 </div>
             </div>

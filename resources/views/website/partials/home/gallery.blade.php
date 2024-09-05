@@ -10,27 +10,39 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/gallery1.jpg" alt="#" /></figure>
+                    <figure><img src="images/8G5A3266.JPG" alt="#" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/gallery2.jpg" alt="#" /></figure>
+                    <figure><img src="images/8G5A3273.JPG" alt="#" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/gallery3.jpg" alt="#" /></figure>
+                    <figure><img src="images/8G5A3275.JPG" alt="#" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/gallery4.jpg" alt="#" /></figure>
+                    <figure><img src="images/8G5A3276.JPG" alt="#" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/gallery5.jpg" alt="#" /></figure>
+                    <figure><img src="images/8G5A3279.JPG" alt="#" /></figure>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6">
+                <div class="gallery_img">
+                    <figure><img src="images/8G5A3288.JPG" alt="#" /></figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="gallery_img">
+                    <figure><img src="images/8G5A3313.JPG" alt="#" /></figure>
                 </div>
             </div>
             @forelse ($galleryItems as $item)
