@@ -92,6 +92,10 @@
                         <li>
                             <hr>
                         </li>
+                        <!--<li>Discount for over 5 days stay</li>-->
+                        <!--<li>-->
+                        <!--    <hr>-->
+                        <!--</li>-->
                         <li>Bed, Breakfast and Airport pickup inclusive</li>
                     </ul>
                 </div>

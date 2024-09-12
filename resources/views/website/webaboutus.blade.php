@@ -40,15 +40,18 @@
                                 We're not just offering rooms, we're offering a stress-free experience. Our cottages are
                                 designed to make your stay as comfortable and convenient as possible, helping you focus
                                 on your journey, not your worries.
-
-                                With prime location and top-notch amenities, we've got your back every step of the way.
                             </p>
-                            <a class="read_more" href="Javascript:void(0)"> Read More</a>
+                            <p>Located in Entebbe, Plot 57, Kiwafu Close, 1.5km from Entebbe International Airport, 50m from United Nations MONUSCO Airbase.
+                        <span class="text-green"><a style="color: #eb7134" href="/?#map_main">View on Map</a></span>
+                    </p>
+                    <p>With prime location and top-notch variety of amenities, we've got your back every step
+                        of the way.</p>
+                           
                         </div>
                     </div>
                     <div class="col-md-7">
                         <div class="about_img">
-                            <figure><img src="images/about.png" alt="#" /></figure>
+                            <figure><img src="images/8G5A3328.JPG" alt="#" /></figure>
                         </div>
                     </div>
                 </div>

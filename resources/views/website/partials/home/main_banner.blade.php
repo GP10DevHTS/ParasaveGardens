@@ -15,11 +15,21 @@
                 <img class="second-slide" src="images/8G5A3279.JPG" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="third-slide" src="images/8G5A3273.JPG" alt="Third slide">
-            </div>
-            <div class="carousel-item">
                 <img class="forth-slide" src="images/8G5A3246.JPG" alt="Forth slide">
             </div>
+            <div class="carousel-item">
+                <img class="fifth-slide" src="images/8G5A3231.JPG" alt="Forth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="sith-slide" src="images/8G5A3247.JPG" alt="Forth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="seventh-slide" src="images/8G5A3260.JPG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="images/8G5A3263.JPG" alt="Third slide">
+            </div>
+            
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
