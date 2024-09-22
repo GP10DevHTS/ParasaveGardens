@@ -2,8 +2,10 @@
 
 namespace App\Livewire\Website;
 
+use App\Mail\NewReservationNotification;
 use App\Models\Customer;
 use App\Models\Reservation;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class ReservationForm extends Component
@@ -20,15 +22,18 @@ class ReservationForm extends Component
     {
         return view('livewire.website.reservation-form');
     }
-    
-    public function openReservationModal(){
+
+    public function openReservationModal()
+    {
         $this->reservationModal_isOpen = true;
     }
 
-    public function closeReservationModal(){
+    public function closeReservationModal()
+    {
         $this->reservationModal_isOpen = false;
     }
-    public function submit(){
+    public function submit()
+    {
         $this->validate([
             'name' => 'required|string|max:255',
             'email' => 'sometimes|nullable|email',
@@ -37,9 +42,9 @@ class ReservationForm extends Component
             'reservation_date' => 'required|date|after_or_equal:today',
             'number_of_days' => 'required',
         ]);
-        if(Customer::where('email', $this->email)->exists()){
+        if (Customer::where('email', $this->email)->exists()) {
             $customer = Customer::where('email', $this->email)->first();
-        }else{
+        } else {
             $customer = Customer::create([
                 'name' => $this->name,
                 'email' => $this->email,
@@ -54,7 +59,8 @@ class ReservationForm extends Component
         ]);
 
         // dd($this->name, $this->email, $this->phone, $this->number_of_people, $this->reservation_date, $this->number_of_days);
- 
+        Mail::to(['interconnect.cottages@gmail.com', 'ghee.siime@gmail.com'])->send(new NewReservationNotification($customer, $this->number_of_people, $this->reservation_date, $this->number_of_days));
+
         noty()->addSuccess('Reservation submitted successfully');
         $this->reservationModal_isOpen = false;
         $this->reset();
