@@ -110,7 +110,7 @@
                             <li>Flat Screen TV</li>
                             <li>Room Service</li>
                             <li>Mini Bar</li>
-                            {{-- <li>Air Conditioning</li> --}}
+                            <li>Air Conditioning</li>
                             <li>Complimentary Breakfast</li>
                         </ul>
                     </div>
