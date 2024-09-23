@@ -7,7 +7,7 @@
 <!-- site metas -->
 <title>InterConnect Airport Cottages</title>
 <meta name="description" content="Interconnect Airport Cottages offers stress-free bed and breakfast accommodation near Entebbe International Airport, just 1.5km away.">
-<meta name="keywords" content="Entebbe airport accommodation, Airport cottages near Entebbe, Stress-free travel lodging Entebbe, Hotels near Entebbe International Airport, Affordable cottages near UN MONUSCO airbase, Comfortable stay near Entebbe airport, Entebbe airport bed and breakfast, Bed and breakfast near Entebbe airport, Entebbe airport transit accommodation, Convenient airport cottages Entebbe, Lodging close to Entebbe International Airport, Best bed and breakfast near Entebbe airport, Accommodation near United Nations MONUSCO airbase, Short-stay cottages near Entebbe airport, Affordable travel accommodation Entebbe, Entebbe airport cottages for travelers">
+<meta name="keywords" content="InterConnect Airport Cottages, Entebbe airport accommodation, Airport cottages near Entebbe, Stress-free travel lodging Entebbe, Hotels near Entebbe International Airport, Affordable cottages near UN MONUSCO airbase, Comfortable stay near Entebbe airport, Entebbe airport bed and breakfast, Bed and breakfast near Entebbe airport, Entebbe airport transit accommodation, Convenient airport cottages Entebbe, Lodging close to Entebbe International Airport, Best bed and breakfast near Entebbe airport, Accommodation near United Nations MONUSCO airbase, Short-stay cottages near Entebbe airport, Affordable travel accommodation Entebbe, Entebbe airport cottages for travelers">
 <meta name="author" content="">
 <!-- bootstrap css -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
