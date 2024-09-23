@@ -7,27 +7,27 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="first-slide" src="images/8G5A3328.JPG" alt="First slide">
+                <img class="first-slide" src="images/8G5A3328.JPG" alt="Interconnect Airport Cottages">
                 <div class="container">
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="second-slide" src="images/8G5A3279.JPG" alt="Second slide">
+                <img class="second-slide" src="images/8G5A3279.JPG" alt="Interconnect Airport Cottages">
             </div>
             <div class="carousel-item">
-                <img class="forth-slide" src="images/8G5A3246.JPG" alt="Forth slide">
+                <img class="forth-slide" src="images/8G5A3246.JPG" alt="Interconnect Airport Cottages">
             </div>
             <div class="carousel-item">
-                <img class="fifth-slide" src="images/8G5A3231.JPG" alt="Forth slide">
+                <img class="fifth-slide" src="images/8G5A3231.JPG" alt="Interconnect Airport Cottages">
             </div>
             <div class="carousel-item">
-                <img class="sith-slide" src="images/8G5A3247.JPG" alt="Forth slide">
+                <img class="sith-slide" src="images/8G5A3247.JPG" alt="Interconnect Airport Cottages">
             </div>
             <div class="carousel-item">
-                <img class="seventh-slide" src="images/8G5A3260.JPG" alt="Third slide">
+                <img class="seventh-slide" src="images/8G5A3260.JPG" alt="Interconnect Airport Cottages">
             </div>
             <div class="carousel-item">
-                <img class="third-slide" src="images/8G5A3263.JPG" alt="Third slide">
+                <img class="third-slide" src="images/8G5A3263.JPG" alt="Interconnect Airport Cottages">
             </div>
             
         </div>
