@@ -142,7 +142,7 @@
                         <!--<li>-->
                         <!--    <hr width="50%">-->
                         <!--</li>-->
-                            <li>Bed, Breakfast and Airport pickup inclusive</li>
+                            <li>Bed and Breakfast included</li>
                         </ul>
                     </div>
                 </div>
