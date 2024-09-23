@@ -9,7 +9,7 @@
     <body class="main-layout">
         <!-- loader  -->
         <div class="loader_bg">
-            <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+            <div class="loader"><img src="images/loading.gif" alt="Interconnect Airport Cottages" /></div>
         </div>
         <!-- end loader -->
         <!-- header -->
@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="about_img">
-                            <figure><img src="images/8G5A3328.JPG" alt="#" /></figure>
+                            <figure><img src="images/8G5A3328.JPG" alt="Interconnect Airport Cottages" /></figure>
                         </div>
                     </div>
                 </div>

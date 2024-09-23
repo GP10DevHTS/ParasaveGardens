@@ -9,7 +9,7 @@
 <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+        <div class="loader"><img src="images/loading.gif" alt="Interconnect Airport Cottages" /></div>
     </div>
     <!-- end loader -->
     <!-- header -->
@@ -49,7 +49,7 @@
                         <div class="col-md-4 col-sm-6">
                             <div id="serv_hover" class="room">
                                 <div class="room_img">
-                                    <figure><img src="images/room{{ $room->id }}.jpg" alt="#" /></figure>
+                                    <figure><img src="images/room{{ $room->id }}.jpg" alt="Interconnect Airport Cottages" /></figure>
                                 </div>
                                 <div class="bed_room">
                                     <h3>{{ $room->name }}</h3>
@@ -61,7 +61,7 @@
                         <div class="col-md-4 col-sm-6">
                             <div id="serv_hover" class="room">
                                 <div class="room_img">
-                                    <figure><img src="images/room1.jpg" alt="#" /></figure>
+                                    <figure><img src="images/room1.jpg" alt="Interconnect Airport Cottages" /></figure>
                                 </div>
                                 <div class="bed_room">
                                     <h3>Bed Room</h3>

@@ -6,7 +6,7 @@
                 <div class="full">
                     <div class="center-desk">
                         <div class="logo">
-                            <a href="{{ route('homepage') }}"><img src="images/logo.png" alt="#" /></a>
+                            <a href="{{ route('homepage') }}"><img src="images/logo.png" alt="Interconnect Airport Cottages" /></a>
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@
             <div class="col-md-4">
                 <div class="blog_box">
                     <div class="blog_img">
-                        <figure><img src="images/now-open-post.jpg" alt="#" /></figure>
+                        <figure><img src="images/now-open-post.jpg" alt="Interconnect Airport Cottages" /></figure>
                     </div>
                     <div class="blog_room">
                         <h3>Interconnect Airport Cottages is Now Open!</h3>
@@ -29,7 +29,7 @@
             <div class="col-md-4">
                 <div class="blog_box">
                     <div class="blog_img">
-                        <figure><img src="images/blog2.jpg" alt="#" /></figure>
+                        <figure><img src="images/blog2.jpg" alt="Interconnect Airport Cottages" /></figure>
                     </div>
                     <div class="blog_room">
                         <h3>Special Opening Offers at Interconnect Airport Cottages</h3>
@@ -44,7 +44,7 @@
             <div class="col-md-4">
                 <div class="blog_box">
                     <div class="blog_img">
-                        <figure><img src="images/manager-2024.jpg" height="100" width="200" alt="#" /></figure>
+                        <figure><img src="images/manager-2024.jpg" height="100" width="200" alt="Interconnect Airport Cottages" /></figure>
                     </div>
                     <div class="blog_room">
                         <h3> Meet the Team at Interconnect Airport Cottages</h3>

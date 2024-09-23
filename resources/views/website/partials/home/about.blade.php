@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-7">
                 <div class="about_img">
-                    <figure><img src="images/8G5A3328.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3328.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
         </div>

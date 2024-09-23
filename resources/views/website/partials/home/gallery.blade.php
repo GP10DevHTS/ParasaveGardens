@@ -10,39 +10,39 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3266.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3266.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3273.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3273.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3275.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3275.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3276.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3276.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3279.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3279.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
 
 
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3288.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3288.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="gallery_img">
-                    <figure><img src="images/8G5A3313.JPG" alt="#" /></figure>
+                    <figure><img src="images/8G5A3313.JPG" alt="Interconnect Airport Cottages" /></figure>
                 </div>
             </div>
             @forelse ($galleryItems as $item)
