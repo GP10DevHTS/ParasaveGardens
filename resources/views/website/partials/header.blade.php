@@ -1,12 +1,14 @@
 <!-- header inner -->
 <div class="header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                 <div class="full">
                     <div class="center-desk">
                         <div class="logo">
-                            <a href="{{ route('homepage') }}"><img src="images/logo.png" alt="Interconnect Airport Cottages" /></a>
+                            <a href="{{ route('homepage') }}">
+                                <img style="height: 90px;" src="images/logo.png" alt="Interconnect Airport Cottages" class="logo-img" />
+                            </a>
                         </div>
                     </div>
                 </div>
