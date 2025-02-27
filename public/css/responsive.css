@@ -24,7 +24,9 @@
         margin: 0 10px;
     }
     .carousel-item img {
-        min-height: 570px;
+        height: auto;
+        /* min-height: 470px; */
+        /* min-height: 570px; */
     }
     .book_room h1 {
         font-size: 19px;
@@ -52,7 +54,8 @@
         height: 76px;
     }
     .carousel-item img {
-        min-height: 570px;
+        height: auto;
+        /* min-height: 470px; */
     }
     .carousel-indicators {
         bottom: 27px;
@@ -114,7 +117,9 @@
         height: 84px;
     }
     .carousel-item img {
-        min-height: 570px;
+        /* min-height: 570px; */
+        height: auto;
+        /* min-height: 470px; */
     }
     .book_room h1 {
         font-size: 20px;
@@ -162,7 +167,7 @@
     .navigation.navbar-dark .navbar-toggler {
         float: right;
         border: inherit;
-        margin-top: -61px;
+        margin-top: -90px;
     }
     .testimonial_box {
         padding: 0px 19px 40px 20px;
