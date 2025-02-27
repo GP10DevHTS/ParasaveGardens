@@ -6,7 +6,12 @@
                 <ul class="conta">
                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> Airport Rd, Kitooro, Entebbe, Kampala
                         (U)</li>
-                    <li><i class="fa fa-mobile" aria-hidden="true"></i> +256 704 573434</li>
+                    <li><i class="fa fa-mobile" aria-hidden="true"></i> 
+                        <a href="tel:+256741194577">+256 (741) 194 577</a>
+                    </li>
+			<li><i class="fa fa-mobile" aria-hiden="true"></i>
+				<a href="tel:+256767780188">+256 (767) 780 188</a>
+			</li>
                     <li><i class="fa fa-envelope" aria-hidden="true"></i><a
                             href="mailto:interconnect.cottages@gmail.com">
                             interconnect.cottages@gmail.com</a></li>
