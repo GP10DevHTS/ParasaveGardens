@@ -7,11 +7,37 @@
 <!-- body -->
 
 <body class="main-layout">
+    {{-- <section class="discount-banner text-center text-white py-4">
+        <div class="container-fluid">
+          <h2 class="fw-bold text-danger">🔥 Special Offer for Long Stays! 🔥</h2>
+          <p class="lead">Stay more than <strong>5 nights</strong> and enjoy a <strong>10% discount</strong> on your stay!</p>
+          <p class="fs-4">
+            <span class="fw-bold text-warning">$45 per night</span> instead of <del>$50</del> for long stays.
+          </p>
+          <a href="#booking" class="btn btn-lg btn-danger fw-bold">Book Now & Save!</a>
+        </div>
+      </section>
+      
+      <style>
+        .discount-banner {
+          background: #000; /* Black background */
+          border-top: 5px solid red;
+          border-bottom: 5px solid red;
+        }
+      </style> --}}
     <!-- loader  -->
     <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="Interconnect Airport Cottages" /></div>
     </div>
     <!-- end loader -->
+
+
+    
+    @include('website.offers-scroll-banner')
+
+
+
+
     <!-- header -->
     <header>
         @include('website.partials.header')
