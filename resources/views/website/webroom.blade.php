@@ -126,12 +126,18 @@
                         <hr width="50%">
                         <ul class="amenities-list">
                             <li>Single Ocupant:</li>
-                            <li class="ml-4">$40.00 per night</li>
+                            <li class="ml-4">$50.00 per night</li>
                             <li>
                                 <hr width="50%">
                             </li>
                             <li>Double Ocupant:</li>
-                            <li class="ml-4">$70.00 per night</li>
+                            <li class="ml-4">$90.00 per night</li>
+                            <li>
+                                <hr width="50%">
+                            </li>
+
+                            <li>Twin Beds:</li>
+                            <li class="ml-4">$90.00 per night</li>
                             <li>
                                 <hr width="50%">
                             </li>
